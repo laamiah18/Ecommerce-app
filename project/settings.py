@@ -234,11 +234,11 @@ AUTHENTICATION_BACKENDS = [
 
 
 # translation 
-LOCALE_PATHS = ['locale']
-LANGUAGES = [
-    ("ar", "Arabic"),
-    ("en", "English"),
-]
+#LOCALE_PATHS = ['locale']
+#LANGUAGES = [
+ #   ("ar", "Arabic"),
+ #   ("en", "English"),
+#]
 
 
 LOGIN_REDIRECT_URL = '/'

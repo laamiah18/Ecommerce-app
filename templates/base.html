@@ -89,9 +89,9 @@
                     <div class="col-md-5 col-lg-3">
                         <div class="header-top-select">
                             <div class="header-select">
-                                <i class="icofont-world"></i>
+                               <!-- <i class="icofont-world"></i> -->
 
-                                <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                            <!--   <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
                                     <input name="next" type="hidden" value="{{ redirect_to }}">
                                     <select name="language" class="select">
                                         {% get_current_language as LANGUAGE_CODE %}
@@ -104,7 +104,7 @@
                                         {% endfor %}
                                     </select>
                                     <input type="submit" value="Go">
-                                </form>
+                                </form>--> 
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                         <button><i class="fas fa-search"></i></button>
                     </form>
 
-                    <div class="header-widget-group">
+                <!--    <div class="header-widget-group">
                         <a href="wishlist.html" class="header-widget" title="Wishlist">
                             <i class="fas fa-heart"></i>
                             <sup>0</sup>
@@ -164,7 +164,7 @@
                             <sup>{{cart_detail_data|length}}+</sup>
                             <span>total price<small>${{cart_data.cart_total}}</small></span>
                         </button>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </header>
@@ -201,14 +201,14 @@
                             </ul>
                             <div class="navbar-info-group">
                                 <div class="navbar-info">
-                                    <i class="icofont-ui-touch-phone"></i>
+                                 <!--   <i class="icofont-ui-touch-phone"></i>-->
                                     <p>
                                       <!--  <small>{% translate "call us" %}</small>
                                         <span>{{settings_data.call_us}}</span> -->
                                     </p>
                                 </div>
                                 <div class="navbar-info">
-                                    <i class="icofont-ui-email"></i>
+                                 <!--   <i class="icofont-ui-email"></i>-->
                                     <p>
                                      <!--   <small>{% translate "email us" %}</small>
                                         <span>{{settings_data.email_us}}</span>-->
@@ -449,11 +449,11 @@
                 <div class="nav-select-group">
                     <div class="nav-select">
                         <i class="icofont-world"></i>
-                        <select class="select">
+                      <!--  <select class="select">
                             <option value="english" selected>English</option>
                             <option value="bangali">Bangali</option>
                             <option value="arabic">Arabic</option>
-                        </select>
+                        </select>-->
                     </div>
                     <div class="nav-select">
                         <i class="icofont-money"></i>
